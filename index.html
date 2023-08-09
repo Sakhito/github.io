@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="оценки фильмов, сериалов и игр"/>
+<title>Оценки фильмов, сериалов и игр</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=twdXnCHzyruUB1Tf_o1XGBs7Q0xJP2QRQXczzbvbKZMZWLbf1Pnh6AMV6LtXf4BLDAKa7j2VhTHtxznYHUiemSyDhCpBwhGI4nTiPtWW6fcL7Pypzk4Fw3BuEoQacUrb0Cx11S4b1FR3qY9Bnxim1A" charset="UTF-8"></script><style type="text/css">
+body {font:12px Verdana, Arial; margin:25px; background-color:#1b2838; color:#acb2b8; text-align: center;}
+
+table a{text-decoration:none; color:#d4d4d4; font-weight:bold;}
+
+table {max-width:960px; border-left:1px solid #17354c; border-top:1px solid #17354c; border-bottom:none; margin:0 auto; background-color: #0d141c;}
+table th{background-color:#214b6b; text-align:left; color:#d4d4d4; border:1px solid #17354c; border-right:none; padding:10px; text-align:center; white-space:nowrap;}
+table td{border-bottom:1px solid #17354c; border-right:1px solid #17354c; padding:6px 4px;}
+table tr:nth-child(even) td{background-color:#16202d;}
+
+.desc,.asc,.sort{width:5px; height:8px; display:inline-block;background-repeat: no-repeat; padding:0px 5px 0 0;}
+	
+.desc{background-image:url(images/desc.gif)}
+.asc{background-image:url(images/asc.gif);}
+.sort{background-image:url(images/sort.gif);}
+
+#sub-desc{color:#384959; padding-top:10px;}
+
+.tabs {width: 100%; padding: 0px; margin: 30px auto 0 auto;}
+.tabs>input { display:none; }
+.tabs>div { display: none;
+}
+.tabs>label {
+    display: inline-block;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #d4d4d4;
+    border: 1px solid #2b526d;
+    background-color: #376d91;
+    cursor: pointer;
+}
+.tabs>label:hover {
+    background-color: #4685af;
+}
+.tabs>input:checked + label {
+	color:#d4d4d4;
+	border:1px solid #17354c;
+	border-bottom:1px solid #17354c;
+	background-color: #2b5470;
+}
+
+#tab_1:checked ~ #content_1,
+#tab_2:checked ~ #content_2,
+#tab_3:checked ~ #content_3,
+#tab_4:checked ~ #content_4,
+#tab_5:checked ~ #content_5,
+#tab_6:checked ~ #content_6,
+#tab_7:checked ~ #content_7,
+#tab_8:checked ~ #content_8 {display: block;}
+</style>
+<script src="sorttable.js"></script>
+</head>
+<body>
+<div class="tabs">
+ 	<input type="radio" name="inset" value="" id="tab_1" checked>
+    <label for="tab_1">PC</label>
+	
+	<input type="radio" name="inset" value="" id="tab_2">
+    <label for="tab_2">PSP</label>
+	
+    <input type="radio" name="inset" value="" id="tab_3">
+    <label for="tab_3">PlayStation</label>
+
+    <input type="radio" name="inset" value="" id="tab_4">
+    <label for="tab_4">PlayStation 2</label>
+	
+	<input type="radio" name="inset" value="" id="tab_5">
+    <label for="tab_5">PlayStation 3</label>
+	
+	<input type="radio" name="inset" value="" id="tab_6">
+    <label for="tab_6">PlayStation 4</label>
+	
+	<input type="radio" name="inset" value="" id="tab_7">
+    <label for="tab_7">PlayStation 5</label>
+	
+	<input type="radio" name="inset" value="" id="tab_8">
+    <label for="tab_8">Книги</label>
+	
+    <div id="content_1"><!--PC игры-->
+		<h1>PC игры</h1>
+		<table cellpadding="0" cellspacing="0" border="0" id="table" class="sortable">
+			<thead>
+				<tr>
+					<th><b>Название</b></th>
+					<th><b>Оценка</b></th>
+					<th><b>Статус</b></th>
+					<th><b>Пройдено раз</b></th>
+					<th class="nosort"><b>Дата последнего прохождения</b></th>
+					<th class="nosort"><b>Комментарий</b></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Little Nightmares II (2021)</td>
+					<td>10/10</td>
+					<td>Пройдено</td>
+					<td>2</td>
+					<td>22.06.23</td>
+					<td>очень атмосферная и интересная игра, думал пройти на платину (но пока нету времени)</td>
+				</tr>
+				<tr>
+									<td>Irony Of Nightmare (2017)</td>
+					<td>10/10</td>
+					<td>Пройдено</td>
+					<td>4</td>
+					<td>03.02.23</td>
+					<td>Пройду еще не раз, прохожу каждый Новый Год, клёвая новогодняя игра, хоть и короткая.</td>
+				</tr>
+				<tr>
+					<td>Frosty Nights (2017)</td>
+					<td>9/10</td>
+					<td>Пройдено</td>
+					<td>3</td>
+					<td>31.12.22</td>
+					<td>Тоже короткая, но атмосферная новогодняя игра, жалко что мало ночей, скримеры страшные, но багов много.. Это не меняет тот факт, что игра крутая!!!</td>
+				</tr>
+				<tr>
+					<td>Lucius (2012)</td>
+					<td>8/10</td>
+					<td>Пройдено</td>
+					<td>1</td>
+					<td>18.05.23</td>
+					<td>Игра очень понравилась, меня так не затягивала ни одна сингл игра. Сначала думал, что игра будет относительно говном, потому-что играл в Lucius Demake, и она мне не понравилась, но оказалось иначе, с концовки орнул. Есть баги, их много, но не так критично для игры 12 года.</td>
+				</tr>
+				<tr>
+					<td>Everlasting Summer (2014)</td>
+					<td>10/10</td>
+					<td>Пройдено</td>
+					<td>1</td>
+					<td>30.03.23</td>
+					<td>Шедевр. Игра полностью погружает в свой мир. Проходится на одном дыхании. Летняя атмосфера так и прет, за моды не брался, ибо это не то.</td>
+				</tr>
+				<tr>
+					<td>Tiny Bunny (2021)</td>
+					<td>8/10</td>
+					<td>Пройдено</td>
+					<td>1</td>
+					<td>09.07.23</td>
+					<td>Интересная игра, страшные скримеры, хороший сюжет, но иногда чет кринжовал, ну а так в общем то норм игра.</td>
+				</tr>
+				<tr>
+					<td>Among the Sleep (2017)</td>
+					<td>6/10</td>
+					<td>Пройдено</td>
+					<td>2</td>
+					<td>12.07.23</td>
+					<td>Местами атмосферно, но чего-то не хватило, было интересно только в начале, дальше пошла духота.</td>
+				</tr>
+				<tr>
+					<td>Viscera Cleanup Detail: Santa's Rampage (2013)</td>
+					<td>10/10</td>
+					<td>Пройдено</td>
+					<td>1</td>
+					<td>23.12.22</td>
+					<td>И еще одна новогодняя игра, которая придаёт ту самую новогоднюю атмосферу, играл много раз, но прошёл с другом только 1, по сути ее нельзя пройти, суть игры - убраться за Сантой. Мне нравятся такие игры, так атмосферно играть в новогодние праздники.</td>
+				</tr>
+				<tr>
+					<td>September 7th (2023)</td>
+					<td>9/10</td>
+					<td>Пройдено</td>
+					<td>1</td>
+					<td>09.01.23</td>
+					<td>Не знаю, почему игра называется именно так, но это крутая новогодняя игра, которую можно пройти в канун Нового года/на Рождество.</td>
+				</tr>
+				<tr>
+					<td>Seen (2019)</td>
+					<td>10/10</td>
+					<td>Пройдено</td>
+					<td>1</td>
+					<td>01.07.22</td>
+					<td>Честно говоря, я не ожидал увидеть такой захватывающий геймплей от этой игры, я купил ее, потому что у меня на балансе осталось 12 рублей, решил скачать ее, запустил, и был очень удивлен. Полное прохождение заняло у меня 2 часа, честно говоря, я люблю такие игры, как Little Nightmares, они очень похожи по игровому процессу. Здесь есть элементы загадок, они не очень сложные. Игра заслуживает моего почтения.</td>
+				</tr>
+				<tr>
+					<td>Christmas Time (2019)</td>
+					<td>5/10</td>
+					<td>Пройдено</td>
+					<td>1</td>
+					<td>24.11.22</td>
+					<td>Игра неплохая, но однотипная, затянет только на минут 20-30, ожидать от игры за 21 руб большего и не надо.</td>
+			</tbody>
+		</table>
+    </div>
+	
+	
+	<div id="content_2"><!--PSP-->
+		<h1>PSP игры</h1>
+		<table cellpadding="0" cellspacing="0" border="0" id="table" class="sortable">
+			<thead>
+				<tr>
+					<th><b>Название</b></th>
+					<th><b>Оценка</b></th>
+					<th><b>Статус</b></th>
+					<th><b>Пройдено раз</b></th>
+					<th class="nosort"><b>Дата последнего прохождения</b></th>
+					<th class="nosort"><b>Комментарий</b></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Ratatouille (2007)</td>
+					<td>8/10</td>
+					<td>Пройдено</td>
+					<td>1</td>
+					<td>09.05.12</td>
+					<td>Мой первый платформер, который я прошел, клёвая игра, прошёл бы еще раз на эмуляторе, вот только было-бы время.</td>
+				</tr>
+			</tbody>
+		</table>
+	
+	
+    </div>
+	
+    <div id="content_3"><!--PS1-->
+		<h1>PlayStation 1 игры</h1>
+		<table cellpadding="0" cellspacing="0" border="0" id="table" class="sortable">
+			<thead>
+				<tr>
+					<th><b>Название</b></th>
+					<th><b>Оценка</b></th>
+					<th><b>Статус</b></th>
+					<th><b>Пройдено раз</b></th>
+					<th class="nosort"><b>Дата последнего прохождения</b></th>
+					<th class="nosort"><b>Комментарий</b></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Harry Potter and the Philosopher’s Stone (2001)</td>
+					<td>?/10</td>
+					<td>Дропнуто</td>
+					<td>0</td>
+					<td>06.10.23</td>
+					<td>Мой первый опыт на эмуляторе, в итоге слетел сейв и я психанул.</td>
+			</tbody>
+		</table>
+		<div id="sub-desc">* Пройдены на эмуляторе Duckstation!</div>
+	   
+    </div>
+    <div id="content_4"><!--PS2-->
+		<h1>PlayStation 2 игры</h1>
+	   	<table cellpadding="0" cellspacing="0" border="0" id="table" class="sortable">
+			<thead>
+				<tr>
+					<th><b>Название</b></th>
+					<th><b>Оценка</b></th>
+					<th><b>Статус</b></th>
+					<th><b>Пройдено раз</b></th>
+					<th class="nosort"><b>Дата прохождения</b></th>
+					<th class="nosort"><b>Комментарий</b></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Тут будут игры (возможно)</td>
+					<td>?</td>
+					<td>?</td>
+					<td>?</td>
+					<td>?</td>
+					<td>?</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="sub-desc">* Будут пройдены на эмуляторе PCSX2.</div>
+	
+	</div>
+	
+	<div id="content_5"><!--PS3-->
+		<h1>PlayStation 3 игры</h1>
+	   	<table cellpadding="0" cellspacing="0" border="0" id="table" class="sortable">
+			<thead>
+				<tr>
+					<th><b>Название</b></th>
+					<th><b>Оценка</b></th>
+					<th><b>Статус</b></th>
+					<th><b>Пройдено раз</b></th>
+					<th class="nosort"><b>Дата прохождения</b></th>
+					<th class="nosort"><b>Комментарий</b></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>?</td>
+					<td>?</td>
+					<td>?</td>
+					<td>?</td>
+					<td>?</td>
+					<td>?</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="sub-desc">* Будут пройдены через сервис Playstation Now или на эмуляторе RPCS3.</div>
+	</div>
+	
+	<div id="content_6"><!--PS4-->
+		<h1>PlayStation 4 игры</h1>
+	   	<table cellpadding="0" cellspacing="0" border="0" id="table" class="sortable">
+			<thead>
+				<tr>
+					<th><b>Название</b></th>
+					<th><b>Оценка</b></th>
+					<th><b>Статус</b></th>
+					<th><b>Пройдено раз</b></th>
+					<th class="nosort"><b>Дата прохождения</b></th>
+					<th class="nosort"><b>Комментарий</b></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Uncharted 4: A Thief's End (2016)</td>
+					<td>5/10</td>
+					<td>Дропнуто</td>
+					<td>0</td>
+					<td>08.05.18</td>
+					<td>Вообще не мое, не зашло.</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="sub-desc">* Пройдены на 4псочке.</div>
+	</div>
+	
+	<div id="content_7"><!--Sony Playstation 5-->
+		<h1>PlayStation 5 игры</h1>
+		<table cellpadding="0" cellspacing="0" border="0" id="table" class="sortable">
+			<thead>
+				<tr>
+					<th><b>Название</b></th>
+					<th><b>Оценка</b></th>
+					<th><b>Пройдено раз</b></th>
+					<th class="nosort"><b>Дата прочтения</b></th>
+					<th class="nosort"><b>Комментарий</b></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>?</td>
+					<td>?</td>
+					<td>?</td>
+					<td>?</td>
+					<td>?</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="sub-desc">* Тут будут пройдены игры на 5псочке.</div>
+	</div>
+	
+	<div id="content_8"><!--Книги-->
+		<h1>Книги</h1>
+		<table cellpadding="0" cellspacing="0" border="0" id="table" class="sortable">
+			<thead>
+				<tr>
+					<th><b>Название</b></th>
+					<th><b>Оценка</b></th>
+					<th><b>Прочитано раз</b></th>
+					<th class="nosort"><b>Дата прочтения</b></th>
+					<th class="nosort"><b>Комментарий</b></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Стивен Кинг - Ночная смена (1978)</td>
+					<td>2/10</td>
+					<td>1</td>
+					<td>Не помню</td>
+					<td>Ну прям вообще ужасная книга, не мое явно.</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="sub-desc">* привет :D</div>
+	</div>
+
+	
+</div>
+<div style="color:#626366; padding-top:10px">made by sakhito</div>
+</body>
+</html>
